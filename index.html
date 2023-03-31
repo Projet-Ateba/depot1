@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Quizz de culture 🧠️ 🧑‍💻️ 🇹🇬 Niveau 1</h3>
+    <form name="form">
+        <div id="question">
+           <b>Quelle est la superficie du TOGO</b>
+            <label for="m">
+                <input type="radio" name="q1" value="a" id="m" checked> 57'060'000'000 m²
+            </label>
+            <label for="km">
+                <input type="radio" name="q1" value="b" id="km"> 57'600 km²
+            </label>
+            <label for="km2">
+                <input type="radio" name="q1" value="c" id="km2"> 56'785 km²
+            </label>
+        </div>
+        <div id="question">
+            <b>Quelle est la capitale du TOGO</b>
+            <label for="ts">
+                <input type="radio" name="q2" value="a" id="ts" checked> Tsévié
+            </label>
+            <label for="lo">
+                <input type="radio" name="q2" value="b" id="lo"> Lomé
+            </label>
+            <label for="an">
+                <input type="radio" name="q2" value="c" id="an"> Aného
+            </label>
+        </div>
+        <div id="question">
+            <b>Quel est le plat national du TOGO</b>
+            <label for="riz">
+                <input type="radio" name="q3" value="a"  id="riz" checked> Ayimolou (riz avec haricot)
+            </label>
+            <label for="porc">
+                <input type="radio" name="q3" value="b" id="porc"> Pinon et viande de porc
+            </label>
+            <label for="pate">
+                <input type="radio" name="q3" value="c" id="pate"> Pâte avec sauce 
+            </label>
+            
+        </div>
+        <div id="question">
+            <b>Qui a fondé la ville de Lomé</b>
+            <label for="adama">
+                <input type="radio" name="q4" value="a" id="adama" checked> Adama
+            </label>
+            <label for="djitri">
+                <input type="radio" name="q4" value="b" id="djitri"> Djitri
+            </label>
+            <label for="djimitri">
+                <input type="radio" name="q4" value="c" id="djimitri"> Djimitri
+            </label>
+        </div>
+        <div id="question">
+            <b>Quelle est la devise du TOGO</b>
+            <label for="tdp">
+                <input type="radio" name="q5" value="a" id="tdp" checked> Travail Dignité Patrie
+            </label>
+            <label for="ltp">
+                <input type="radio" name="q5" value="b" id="ltp"> Liberté Travail Patrie
+            </label>
+            <label for="tlp">
+                <input type="radio" name="q5" value="c" id="tlp"> Travail Liberté Patrie
+            </label>
+        </div>
+        <button type="submit" id="submit">Valider</button>
+
+    </form><br><br>
+    <div class="result">
+        <h3>Cliquez sur valider pour voir les resultats</h3>
+        <p class="aide"></p>
+        <p class="note"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
